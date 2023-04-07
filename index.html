@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        prompt ("enter your name")
+alert ("Error! please enter a valid password")
+alert ("Welcome to JS land....\nHappy coding" )
+alert ("Welcome to JS land...." )
+alert ("Happy coding!\nprevent this page from creating additional dialogs")
+alert ("Hello...I can run javascript through my web browers console")
+console.log ("It is very easy to use js in console")
+var a = "username";
+alert (a);
+var b = "my name is ";
+var c = "usaid";
+alert ( b + c);
+var d = "message";
+var d = "hello world";
+alert (d);
+
+var e = "Name Usaid"
+alert (e)
+var f ="Age 15"
+alert (f);
+var g = "Degree certified mobile application development";
+alert (g);
+var h = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert ("PIZZA\nPIZZ\nPIZ\nPI\nP");
+
+var i = "email"
+alert ("my email address is example@example.com")
+var j = "book"
+alert ("i'm trying to learn from the book a samrt way to learn javascript")
+document.write ("Yah! i can write HTML content through Javascript")
+var k = "mouse"
+alert ("“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”")
+
+
+
+var now = new Date()
+console.log(typeof now.toString())
+console.log(now)
+
+
+
+var day = now.getDay()
+var daysArr = ["sun", "mon", "tues", "wed", "thurs", "fri", "sat"]
+var today = daysArr[day]
+console.log('Day', today)
+
+
+
+var monthArr = ["jan", "feb", "march", "april", "may", "june", "july"]
+var month = now.getMonth()
+var nowMonth = monthArr[month]
+console.log(nowMonth)
+
+
+
+var fullyear = now.getFullYear()
+console.log(fullyear)
+
+
+
+var date = now.getDate()
+console.log(date)
+
+
+
+var time = now.getTime()
+console.log(time)
+
+
+
+var hours = now.getHours()
+console.log(hours)
+
+
+
+var min = now.getMinutes()
+console.log(min)
+
+
+
+var sec = now.getSeconds()
+console.log(sec)
+
+
+
+var milisec = now.getMilliseconds()
+console.log(milisec)
+
+
+
+var myDate = new Date("march 10,1979 13:10:01")
+console.log(myDate)
+
+
+
+var now = new Date()
+now.setSeconds(49)
+console.log(now)
+
+
+
+var now = new Date()
+now.setFullYear(2010)
+console.log(now)
+
+
+
+var now = new Date()
+now.setHours(12)
+console.log(now)
+
+
+
+var now = new Date()
+now.setMinutes(45)
+console.log(now)
+
+
+
+var now = new Date()
+var nowTime = now.getTime()
+console.log(nowTime)
+
+
+
+var birthDate = new Date("feburary 19,2007")
+var birthDateTime = birthDate.getTime()
+console.log(birthDateTime)
+
+
+
+var diff = nowTime - birthDateTime
+console.log(diff)
+
+
+
+var myBirthYear = (diff / (1000 * 60 * 60 * 24 * 365))
+console.log(Math.floor(myBirthYear))
+
+
+
+
+function getTime(greeting, name = "Usaid") {
+    alert(greeting + " " + name)
+}
+// getTime()
+getTime("welcome ", "usaid")
+getTime("welcome ", "usaid")
+getTime("usaid ", "welcome")
+getTime("usaid ", "welcome")
+
+
+
+var name = prompt("enter your name")
+function getTime(greeting, name) {
+    alert(greeting + " " + name)
+}
+getTime("welcome", name)
+    </script>
+    
+</body>
+</html>
